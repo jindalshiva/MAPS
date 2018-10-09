@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?><!--<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"--><!--xmlns:tools="http://schemas.android.com/tools"--><!--android:layout_width="match_parent"--><!--android:layout_height="match_parent"--><!--android:orientation="vertical"--><!--android:background="@drawable/gradientgreen"--><!--tools:context=".PreferencesActivity">-->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradientgreen"
+    android:orientation="vertical"
+    tools:context=".PreferencesActivity">
+
+    <TextView
+        android:id="@+id/prefTV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="36sp"
+        android:padding="24sp"
+        android:text="Preferences"
+        android:textColor="#FFFFFF"
+        android:textSize="36sp" />
+
+    <EditText
+        android:id="@+id/prefET"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/prefTV"
+        android:layout_margin="12sp"
+        android:hint="Book Name"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white" />
+
+    <EditText
+        android:id="@+id/authorET"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/prefET"
+        android:layout_margin="12sp"
+        android:hint="Author"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white" />
+
+    <Button
+        android:id="@+id/addBTN"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/authorET"
+        android:layout_alignParentEnd="true"
+        android:layout_margin="12sp"
+        android:background="@drawable/edittext"
+        android:text="Add" />
+
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/prefRV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/submitBTN"
+        android:layout_below="@id/addBTN" />
+
+    <Button
+        android:id="@+id/submitBTN"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginRight="12sp"
+        android:layout_marginBottom="52sp"
+        android:background="@drawable/btn_disabled"
+        android:text="Submit" />
+
+</RelativeLayout>

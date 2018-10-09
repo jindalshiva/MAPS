@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "721344490129",
+    "firebase_url": "https://drozeebvest.firebaseio.com",
+    "project_id": "drozeebvest",
+    "storage_bucket": "drozeebvest.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:721344490129:android:c70a6ac8597e891a",
+        "android_client_info": {
+          "package_name": "com.drozee.drozeebvest"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "721344490129-vujfhd97rdm1g5esvkm0obbj6ncmhqt2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.drozee.drozeebvest",
+            "certificate_hash": "07d2dac039eb66429b74c5de8feeebabbc713603"
+          }
+        },
+        {
+          "client_id": "721344490129-t41vnlojatg3b9fdkjfq7e8u83523qje.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDKiCmPCwFmje-VvrjoSXVAcPMa21C1OPQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "721344490129-t41vnlojatg3b9fdkjfq7e8u83523qje.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
